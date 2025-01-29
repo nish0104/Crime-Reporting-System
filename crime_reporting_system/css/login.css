@@ -1,0 +1,116 @@
+  body {
+  background-color: rgb(210,210,210); 
+  margin: 0px;
+}
+
+.login_container h2 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  opacity: 0.5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.formspace {
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: white;
+  width: 350px;
+  height: 630px;
+  margin: 0px auto;
+  box-shadow: 2px 2px 5px black;
+}
+.formspace2 {
+  border-radius: 20px;
+ /* border-top-left-radius: 20px;*/
+  width: 350px;
+  background-color: white;
+  height: 300px;
+}
+.form {
+  border-radius: 8px;
+  position: relative;
+  top: -50px;
+  background-color: white;
+  width: 300px;
+  height: 125px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  margin-left: 7%;
+  box-shadow: 2px 2px 2px rgba(126, 126, 126, 0.5);
+}
+
+.form .login {
+  color: #616368;
+  position: relative;
+  top: -40px;
+  margin-left: 35%;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* // text-shadow:  2px 2px 5px black; */
+}
+
+.userdetail {
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 20px;
+  color: #4a60d0;
+}
+
+input {
+  color: rgba(44, 44, 44, 0.9);
+  background-color: white;
+  border: 1px solid white;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid rgba(68, 68, 68, 0.3);
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+.user_name input {
+  width: 250px;
+  margin-top: 5px;
+}
+
+.password input {
+  width: 250px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.label_help {
+  text-decoration: none;
+  cursor: pointer;
+  color: #656565;
+  margin-left: 90px;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  transition: 0.8s;
+}
+
+.help {
+  text-decoration: none;
+}
+
+.label_help:hover {
+  color: black;
+}
+.button{
+  background-color: #008CBA;/*Blue*/
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

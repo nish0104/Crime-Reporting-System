@@ -1,0 +1,116 @@
+body{
+	font-size: 28px;
+	background: rgb(210,210,210);
+	color: #0000ff;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: DodgerBlue;
+}
+
+img{
+  border-radius: 1px;
+  padding: 4px;
+  width: 150px;
+  height: 550px;
+  opacity: 1;
+}
+
+@keyframes slider {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+.slider {
+  margin: 0px;
+  overflow: hidden;
+}
+.slider .slideimg img {
+  width: 20%;
+  float: left;
+}
+.slider .slideimg {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 6000s slider infinite;
+}
+.button {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.buttonrc{
+  background-color: DodgerBlue;
+  color: white;
+}
+.buttonrc:hover{
+  background-color:white;
+  color: DodgerBlue; 
+}
+
+
+

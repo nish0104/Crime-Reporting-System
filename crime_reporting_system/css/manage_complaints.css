@@ -1,0 +1,50 @@
+body {
+  background-color: white; 
+  margin: 0px;
+}
+
+.complaints h2 {
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  opacity: 0.5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}	
+
+.complaints {
+  color: #616368;
+  position: relative;
+  top: -40px;
+  margin-left: 35%;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+table{
+ font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ border-collapse: collapse;
+ width: 80%; 
+}
+#complaints td, #complaints th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#complaints tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+#complaints tr:hover{
+  background-color: #ddd;
+}
+#complaints th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(120,120,120); /*#04AA6D;*/
+  color: white;
+}
+

@@ -1,0 +1,74 @@
+.policeofficer h2 {
+  text-align: center;
+  color: #0000ff;
+  font-size: 30px;
+  opacity: 0.5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}	
+ body {
+  background-color: rgb(210,210,210); 
+  margin: 0px;
+}
+.form {
+  border-radius: 20px;
+  margin-top: 20px;
+  position: relative;
+  background-color: white;
+  width: 450px;
+  height: 400px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  margin-left: 40%;
+  box-shadow: 2px 2px 2px rgba(126, 126, 126, 0.5);
+}
+.form .policeofficer {
+  color: #616368;
+  position: relative;
+  top: -40px;
+  margin-left: 35%;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.policeofficerdetail {
+  font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 20px;
+  color: #4a60d0;
+}
+input {
+  color: rgba(44, 44, 44, 0.9);
+  background-color: white;
+  border: 1px solid white;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid rgba(68, 68, 68, 0.3);
+  padding-bottom: 5px;
+  margin-top: 10px;
+  width: 350px;
+}
+.name .designation .contactno input {
+  width: 250px;
+  margin-top: 5px;
+}
+
+.button{
+  background-color: #008CBA;/*Blue*/
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100px;
+  height: 50px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
